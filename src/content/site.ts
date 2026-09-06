@@ -14,12 +14,12 @@ export const site = {
     transit: "5 min walk from Allenby light rail. 12 min walk from HaHagana station.",
   },
   contact: {
-    phone: "+972-3-555-1234",
+    phone: "+972-3-555-0142",
     email: "hello@thevelvetroom.bar",
     instagram: "@thevelvetroom_tlv",
   },
   hours: [
-    { day: "Sunday – Thursday", time: "18:00 – 01:00" },
+    { day: "Sunday – Thursday", time: "18:00 – 02:00" },
     { day: "Friday", time: "17:00 – 02:00" },
     { day: "Saturday", time: "19:00 – 01:00" },
     { day: "Kitchen", time: "Until 23:30 nightly" },
