@@ -14,7 +14,7 @@ export const site = {
     transit: "5 min walk from Allenby light rail. 12 min walk from HaHagana station.",
   },
   contact: {
-    phone: "+972-3-555-0142",
+    phone: "+972-3-555-1234",
     email: "hello@thevelvetroom.bar",
     instagram: "@thevelvetroom_tlv",
   },
