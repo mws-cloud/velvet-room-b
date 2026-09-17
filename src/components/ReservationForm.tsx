@@ -43,7 +43,7 @@ export function ReservationForm() {
           A confirmation will be sent to {form.email || form.phone}.
         </p>
         <p className="mt-6 text-sm text-amber-300/80">Please arrive on time — late arrivals may receive a less welcoming welcome.</p>
-        <Link href="/" className="mt-8 inline-block rounded-full border border-amber-600/60 px-6 py-3 text-sm tracking-wide text-amber-100 transition hover:border-amber-400">Back to home</Link>
+        <Link href="/" className="mt-8 inline-block rounded-full border border-green-600/60 px-6 py-3 text-sm tracking-wide text-green-100 transition hover:border-green-400">Back to home</Link>
       </div>
     );
   }
@@ -80,7 +80,7 @@ export function ReservationForm() {
           </select>
         </label>
       </div>
-      <button type="submit" className="mt-8 w-full rounded-full bg-amber-700 px-8 py-4 text-sm font-medium tracking-[0.2em] text-amber-50 uppercase transition hover:bg-amber-600">Book seats</button>
+      <button type="submit" className="mt-8 w-full rounded-full bg-green-700 px-8 py-4 text-sm font-medium tracking-[0.2em] text-green-50 uppercase transition hover:bg-green-600">Book seats</button>
     </form>
   );
 }
