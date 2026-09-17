@@ -34,16 +34,16 @@ export function ReservationForm() {
 
   if (submitted) {
     return (
-      <div className="rounded-2xl border border-amber-700/40 bg-[#1a120d]/90 p-8 text-center">
-        <p className="text-xs tracking-[0.35em] text-amber-400 uppercase">Request received</p>
+      <div className="rounded-2xl border border-green-700/40 bg-[#1a120d]/90 p-8 text-center">
+        <p className="text-xs tracking-[0.35em] text-green-400 uppercase">Request received</p>
         <h2 className="mt-3 font-serif text-3xl text-amber-50">Your table is reserved</h2>
         <p className="mt-4 text-stone-400">
           {form.name}, we&apos;ve noted your request for{" "}
           <span className="text-amber-100">{form.guests} guests on {form.date} at {form.hour}</span>.
           A confirmation will be sent to {form.email || form.phone}.
         </p>
-        <p className="mt-6 text-sm text-amber-300/80">Please arrive on time — late arrivals may receive a less welcoming welcome.</p>
-        <Link href="/" className="mt-8 inline-block rounded-full border border-green-600/60 px-6 py-3 text-sm tracking-wide text-green-100 transition hover:border-green-400">Back to home</Link>
+        <p className="mt-6 text-sm text-green-300/80">Please arrive on time — late arrivals may receive a less welcoming welcome.</p>
+        <Link href="/" className="mt-8 inline-block rounded-full border border-green-600/60 bg-green-700/80 px-6 py-3 text-sm tracking-wide text-green-50 transition hover:bg-green-600/90">Back to home</Link>
       </div>
     );
   }
